@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behaviour:smooth;
 }
 .container{
     width: 1140px;
@@ -18,6 +19,9 @@ a{
 .header .left{
     background-color: #005861;
     width: 50%;
+}
+.header .right{
+    width:50%;
 }
 .header-details h3{
     color: #B3B851;
@@ -54,7 +58,7 @@ a{
 .icon_bar{
     position: absolute;
     top: 25%;
-    left:86.5%;
+    left:86%;
     bottom: 40%;
 }
 .icon_bar a{
